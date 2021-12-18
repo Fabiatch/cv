@@ -1,0 +1,151 @@
+body{
+;
+line-height: 1.7;
+text-decoration: inherit;
+font-weight: normal;
+text-align: left;
+height: 100%;
+font-family: Roboto;
+}
+
+h1{
+	line-height: 75px;
+	font-size: 75px;
+	text-align: center;
+}
+
+
+h3{
+	color:#C0504D;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+h4{
+	color:#C0504D;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+p{
+	color: #AAACAF;
+	font-size: 15px;
+}
+
+
+.titre{
+	color: #AAACAF;
+	font-size: 20px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.date{
+	color: #AAACAF;
+	font-size: 15px;
+}
+
+.cv .partiedroite .titre{
+	text-align: center;
+}
+
+.cv .bande img{
+	width:75px;
+	height:200px;
+	position: absolute;
+}
+
+.cv .photo img{
+	width: 320px;
+	height: 350px;
+	border-radius: 15%;
+}
+
+ul{
+	color:#AAACAF;
+	text-align: left;
+	padding-left:30px;
+}
+
+}
+ul li  {
+ 	list-style-position:inside	
+}
+
+.logold{
+	color:#AAACAF;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	background-image: url(ld.png);
+}
+.textedroite {
+	color:#AAACAF;
+	text-align: justify;
+	padding-left:25px;
+	padding-right: 25px;
+
+}
+
+.cv {
+	height: 100%;
+	
+	position: relative;
+}
+
+.cv .partiegauche {
+	width: 70%;
+	height: 100%;
+	float: left;
+	background-color: rgb(300,300,300);
+	padding: 25px;
+
+}
+
+.cv .partiedroite {
+	width: 26%;
+	height: 100%;
+	float: left;
+	background-color:rgb(242,242,242);
+	border-top-left-radius: 15%;
+	border-top-right-radius: 15%;
+	text-align: center;
+
+}
+
+.cv .partiegauche .card1 {
+	width: 100%;
+	height: 50%;
+	border-radius: 7%;
+	box-shadow: rgba(200, 200, 200, 0.4) 5px 5px, rgba(200, 200, 200, 0.3) 10px 10px, rgba(200, 200, 200, 0.2) 15px 15px, rgba(200, 200, 200, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.cv .partiegauche .card2 {
+	width: 100%;
+	height: 50%;
+	border-radius: 7%;
+	box-shadow: rgba(200, 200, 200, 0.4) 5px 5px, rgba(200, 200, 200, 0.3) 10px 10px, rgba(200, 200, 200, 0.2) 15px 15px, rgba(200, 200, 200, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.cv .partiedroite .txt{
+	padding-left: 50px;
+}
+
+.logold{
+	width: 10%;
+	height: 15%;
+	float: left;
+	padding-left: 68px;
+}
+
+.mail{
+	width: 10%;
+	height: 15%;
+	float: left;
+	padding-left: 72px;
+}
+ul .logo{
+	list-style-type: none;
+}
